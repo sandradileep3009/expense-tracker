@@ -7,10 +7,10 @@ from expenses import Expense
 def main():
     print("💖 Expense Tracker! ")
     expense_file="expense.csv"
-    '''expense=get_user_expense()
+    expense=get_user_expense()
     print(expense)
     
-    save_expenses_to_file(expense,expense_file)'''
+    save_expenses_to_file(expense,expense_file)
     budget=2000
     summarize_expenses(expense_file,budget)
 
